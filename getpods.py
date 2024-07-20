@@ -7,8 +7,8 @@ from dateutil import parser as time_parser
 
 url_file = 'url_file'
 down_speed = '5M'
-pod_directory = '/media/nas_data/Podcasts'
-pattern = re.compile('(.*)(\.mp3)(.*)')
+pod_directory = '/media/denali/Podcasts'
+pattern = re.compile(r'(.*)(\.mp3)(.*)')
 debug = False
 
 def parse_links(feed):
